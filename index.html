@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="redDot.js"></script>
+        <link href="redDot.css" rel="stylesheet" type="text/css"/>
+        <title>RedDot - Simple example of using webRTC data channel to play p2p</title>
+    </head>
+
+    <body>
+        <h1>RedDot - webRTC Game</h1>
+        
+        <h2>Simple example of using webRTC data channel to play p2p.</h2>
+        
+        <div>Target of the game is to catch red dot.</div>
+        
+        <div id="waitForOpponent">wait for opponent...</div>
+        
+        <div id="playField">
+            <div id="mouseCursorFirst"></div>
+            <div id="mouseCursorSecond"></div>
+            <div id="redDot"></div>
+        </div>
+        
+        <div id="score">
+            <strong>Score</strong>
+            <div>You: <span id="scoreFirst">0</span></div>
+            <div>Opponent: <span id="scoreSecond">0</span></div>
+        </div>
+        
+    </body>
+</html>
